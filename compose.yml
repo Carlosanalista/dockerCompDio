@@ -7,3 +7,7 @@ services:
     - '80:80'
     volumes:
     - ./website:/usr/local/apache2/htdocs
+
+networks:
+   minha-rede:
+     driver: bridge
